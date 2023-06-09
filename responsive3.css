@@ -146,6 +146,8 @@
 
     .syarat {
         padding: 60px 0;
+        width: 90%;
+        margin: auto;
         text-align: center;
     }
 
@@ -161,6 +163,19 @@
         text-align: left;
         display: flex;
         align-items: center;
+    }
+
+    .syarat .box-syarat .duo {
+        padding-top: 30px;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    
+    .syarat .box-syarat .alone {
+        width: 60%;
+        margin: auto;
     }
 
     .syarat .box-syarat .syarat-box p {
