@@ -34,7 +34,12 @@
     }
 
     .box-navbar ul li {
-        padding: 0 50px;
+        padding: 10px 50px;
+        border-radius: 10px;
+    }
+
+    .box-navbar ul li:hover {
+        background-color: grey;
     }
 
     .box-navbar button {
