@@ -106,6 +106,12 @@
     width: 70%;
     margin: 30px auto;
     padding: 20px 0;
+    border-radius: 10px;
+}
+
+.alur .box-alur .langkah:hover {
+    background-color: #0554f2;
+    color: #f1f1f1;
 }
 
 .alur .box-alur .langkah h1 {
