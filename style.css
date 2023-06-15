@@ -7,6 +7,26 @@
     padding: 0;
 }
 
+.bb {
+    color: 
+        #ededed
+        #f1f1f1
+        rgb(41, 41, 41)
+        #d1d1d1
+        #f9f9f9
+        rgba(0, 0, 0, 0.2)
+        #cecece
+        #0554f2
+        #0649ce
+        #006eff
+        #f1f5fa
+    ;
+}
+
+button {
+    cursor: pointer;
+}
+
 .container {
     width: 95%;
     margin: auto;
@@ -45,6 +65,10 @@
     border: none;
 }
 
+.box-navbar a button:hover {
+    background-color: #006eff;
+}
+
 .box-navbar .ri-menu-line {
     display: block;
 }
@@ -79,6 +103,13 @@
     color: white;
     border-radius: 8px;
     border: none;
+    
+}
+
+.hero .box-hero button:hover {
+    background-color: #f1f5fa;
+    color: #006eff;
+    transition: all .3s;
 }
 
 .hero .box-hero .img-hero img {

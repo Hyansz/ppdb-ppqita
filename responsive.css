@@ -39,7 +39,7 @@
     }
 
     .box-navbar ul li:hover {
-        background-color: grey;
+        background-color: #d1d1d1;
     }
 
     .box-navbar button {
@@ -169,11 +169,20 @@
     .syarat .box-syarat .syarat-box {
         box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
         width: 80%;
-        margin: 30px auto;
+        margin: 10px auto;
         padding: 20px 10px;
         text-align: left;
         display: flex;
         align-items: center;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
+    .syarat .box-syarat .syarat-box:hover {
+        background-color: #006ef0;
+        color: #f1f1f1;
+        border-radius: 10px;
+        transition: all .3s;
     }
 
     .syarat .box-syarat .duo {
@@ -186,7 +195,7 @@
     
     .syarat .box-syarat .alone {
         width: 60%;
-        margin: auto;
+        margin: 20px auto;
     }
 
     .syarat .box-syarat .syarat-box p {
@@ -260,7 +269,6 @@
 
     .footer .box-footer .sosmed {
         padding-top: 30px;
-        text-align: center;
     }
 
     .footer .box-footer .sosmed i {
